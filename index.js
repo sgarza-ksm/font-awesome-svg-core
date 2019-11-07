@@ -631,6 +631,7 @@
   }
   var idPool = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
   function nextUniqueId(forceId) {
+    return 0
     if(forceId && typeof forceId === 'string') {
       return forceId
     }
